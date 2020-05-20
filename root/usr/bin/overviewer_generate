@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec s6-setuidgid abc python3 /overviewer/overviewer.py --config=/config/overviewer.conf
